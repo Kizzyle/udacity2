@@ -6,7 +6,6 @@ form="""
   <input type="submit">
 </form>
 """
-##this is a change
 class MainPage(webapp2.RequestHandler):
   def get(self):
   self.response.headers['Content-Type'] = 'text/plain'
